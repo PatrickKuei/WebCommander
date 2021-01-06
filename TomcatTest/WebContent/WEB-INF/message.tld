@@ -1,0 +1,46 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<short-name>My Custom Tag</short-name>
+	<tag>
+		<name>MyMsg</name>
+		<tag-class>com.w3big.test.CustomTag</tag-class>
+		<body-content>empty</body-content>
+		<attribute>
+			<name>number</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>Integer</type>
+		</attribute>
+		<attribute>
+			<name>FOLDER_PATH</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>String</type>
+		</attribute>
+		<attribute>
+			<name>requestUri</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>String</type>
+		</attribute>
+		<attribute>
+			<name>fileList</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>String</type>
+		</attribute>
+		<attribute>
+			<name>direction</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+			<type>String</type>
+		</attribute>
+	</tag>
+	<tag>
+		<name>TestTag</name>
+		<tag-class>com.w3big.test.TestTag</tag-class>
+		<body-content>empty</body-content>
+		
+	</tag>
+</taglib>
